@@ -1,0 +1,15 @@
+RC Race HQ lap counter hardware
+Copyright 2026 Sturgeon Technologies LLC
+
+Licensed under the CERN-OHL-S v2 (see LICENSE).
+You may redistribute and modify this source and make products using it under
+the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+Source location: https://github.com/SturgeonTechnologies/RCRaceHQ-LapCounter-HAT
+(as required by section 4.1 of the licence, this URL should be printed on the
+board silkscreen or included with any product made from this design)
+
+"RC Race HQ" is a trademark of Sturgeon Technologies LLC and is not licensed
+under the CERN-OHL-S.

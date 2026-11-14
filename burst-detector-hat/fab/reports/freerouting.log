@@ -1,0 +1,44 @@
+2026-10-26 09:42:16.521 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-26 09:42:16.851 INFO   Hardware: 8 CPU cores, 420 CPU score, 512 MB RAM
+2026-10-26 09:42:16.852 WARN   Deprecated settings path '-mp / --router.max_passes'; use '--router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-10-26 09:42:16.853 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-26 09:42:17.931 WARN   Deprecated settings path 'router.max_passes'; use 'router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-10-26 09:42:18.201 INFO   [F6B95A\D3FE23] Loading board file 'board.dsn'...
+2026-10-26 09:42:18.424 INFO   [F6B95A\D3FE23] Job 'F6B95A\D3FE23' started at 2026-10-26T16:42:18.424532627Z.
+2026-10-26 09:42:18.536 WARN   Design Warning: Board has 4 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 4 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 2 pin-to-pin clearance violations:
+          - U3.9 [net SDA] <-> U3.8 [net +3V3]
+          - U3.8 [net +3V3] <-> U3.7
+      * 2 fixed trace/via clearance violations:
+          - FixedTrace#461 [net +3V3] <-> U3.9 [net SDA]
+          - FixedTrace#461 [net +3V3] <-> U3.7
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 4 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-10-26 09:42:18.586 INFO   [F6B95A\D3FE23] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=7.
+2026-10-26 09:42:18.670 INFO   [F6B95A\D3FE23] Fanout stage started on board '8c0307ad80c1e0dd2cc8041f71c33e55' with 95 of 99 SMD pins needing fanout (0 already connected, 4 netless).
+2026-10-26 09:42:20.242 INFO   [F6B95A\D3FE23] Fanout pass #1 on board 'e365000e24ece8eee3793868e0d8cfa7' completed in 1.53 seconds with 81 SMD pins fanouted, 3 not routed, 0 insert errors, +26 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-26 09:42:20.420 INFO   [F6B95A\D3FE23] Fanout pass #2 on board '7fc279b5179323df4c8bcaaf70f8cbe3' completed in 0.16 seconds with 6 SMD pins fanouted, 1 not routed, 0 insert errors, +3 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-26 09:42:20.496 INFO   [F6B95A\D3FE23] Fanout pass #3 on board '9c784f97caf660a5b1e9b7b7b9b4007b' completed in 0.06 seconds with 3 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-10-26 09:42:20.565 INFO   [F6B95A\D3FE23] Fanout pass #4 on board '8a43335533e1d6c3423610a94f0657a5' completed in 0.06 seconds with 3 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-10-26 09:42:20.633 INFO   [F6B95A\D3FE23] Fanout pass #5 on board '94b315c557d0be74d0832f98c6a39a75' completed in 0.06 seconds with 3 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-10-26 09:42:20.701 INFO   [F6B95A\D3FE23] Fanout pass #6 on board '9abbc7c6564251c90ba457d703cae09d' completed in 0.06 seconds with 3 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-10-26 09:42:20.702 INFO   Fanout stopped after 6 passes: no progress for 3 consecutive passes.
+2026-10-26 09:42:20.708 INFO   [F6B95A\D3FE23] Fanout stage completed: started with 95 total SMD pins, completed in 2.02 seconds, escaped pins: 91/95 (95.8%), using 2.00 total CPU seconds, 0.55 GB total allocated, and 122.5 MB peak heap usage.
+2026-10-26 09:42:20.761 INFO   [F6B95A\D3FE23] Auto-routing stage started on board '9abbc7c6564251c90ba457d703cae09d' with baseline score 462.94 for 35 unrouted items.
+2026-10-26 09:42:24.276 INFO   [F6B95A\D3FE23] Auto-routing pass #1 on board '9abbc7c6564251c90ba457d703cae09d' was completed in 3.47 seconds with score 892.05 (7 unrouted and 4 violations), using 4.79 CPU seconds and the job allocated 1.72 GB of memory so far.
+2026-10-26 09:42:25.152 INFO   [F6B95A\D3FE23] Auto-routing pass #2 on board '7d2ec771a510b755dc9c3d42f6a1b3fa' was completed in 0.83 seconds with score 953.36 (3 unrouted and 4 violations), using 5.79 CPU seconds and the job allocated 2.16 GB of memory so far.
+2026-10-26 09:42:25.681 INFO   [F6B95A\D3FE23] Auto-routing pass #3 on board 'c2f01b023160ea139a63a4993a82e32e' was completed in 0.49 seconds with score 999.33 (0 unrouted and 4 violations), using 6.77 CPU seconds and the job allocated 2.64 GB of memory so far.
+2026-10-26 09:42:25.747 INFO   [F6B95A\D3FE23] Auto-routing pass #4 on board '04f400c1d229ea2c15b80f8cfa3bf1a0' was completed in 0.03 seconds with score 999.33 (0 unrouted and 4 violations), using 6.77 CPU seconds and the job allocated 2.64 GB of memory so far.
+2026-10-26 09:42:26.013 INFO   [F6B95A\D3FE23] Auto-routing stage completed: started with 84 unrouted nets, completed in 7.40 seconds, final score: 999.33 (0 unrouted and 4 violations), using 6.77 total CPU seconds, 2.64 GB total allocated, and 115.1 MB peak heap usage.
+2026-10-26 09:42:26.116 INFO   [F6B95A\D3FE23] Optimization stage started on board '4fa68e2d9f45b7f7dcf73db25d57ee17'. Baseline router score: 999.33, optimizer score: 686.56, incomplete connections: 0, clearance violations: 4.
+2026-10-26 09:42:33.179 INFO   [F6B95A\D3FE23] Optimizer pass #1 on board '66a1ec733249d932985023ffcfff80b9' was completed in 6.95 seconds with the score of 710.01 (0 unrouted and 4 violations).
+2026-10-26 09:42:33.213 INFO   [F6B95A\D3FE23] Optimizer pass #1: optimizer score 686.56 -> 710.01 (IMPROVED, 3.4157%), router score: 999.33, incomplete connections: 0, clearance violations: 4.
+2026-10-26 09:42:39.435 INFO   [F6B95A\D3FE23] Optimizer pass #2 on board '639d52765b44dbf94b521bb08f725d6b' was completed in 6.13 seconds with the score of 718.64 (0 unrouted and 4 violations).
+2026-10-26 09:42:39.466 INFO   [F6B95A\D3FE23] Optimizer pass #2: optimizer score 710.01 -> 718.64 (IMPROVED, 1.2164%), router score: 999.33, incomplete connections: 0, clearance violations: 4.
+2026-10-26 09:42:39.467 INFO   [F6B95A\D3FE23] Stopping optimizer because the improvement in this pass (1.2164%) is below the threshold (2.50%).
+2026-10-26 09:42:39.514 INFO   [F6B95A\D3FE23] Optimization stage completed:. Baseline router score: 999.33, baseline optimizer score: 686.56, final router score: 999.33, final optimizer score: 718.64, completed in 13.38 seconds, using 51.61 total CPU seconds, 17.61 GB total allocated, and 243.5 MB peak heap usage.
+2026-10-26 09:42:39.524 INFO   [F6B95A\D3FE23] Job 'F6B95A\D3FE23' finished with state: COMPLETED (elapsed: 21.10 seconds, finished at UTC: 2026-10-26T16:42:39.522717558Z).
+2026-10-26 09:42:39.572 INFO   Saving output file '/tmp/tmp.7rH9r1HBSm/board.ses' (SES)...
+2026-10-26 09:42:39.576 INFO   Successfully saved output file '/tmp/tmp.7rH9r1HBSm/board.ses' (25687 bytes).
